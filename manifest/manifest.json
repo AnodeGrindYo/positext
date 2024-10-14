@@ -29,7 +29,7 @@
         {
             "matches": [
                 "https://*.facebook.com/*",
-                "https://*.twitter.com/*"
+                "https://*.x.com/*"
             ],
             "js": [
                 "content.js"
