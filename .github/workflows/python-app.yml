@@ -15,7 +15,7 @@ jobs:
 
     strategy:
       matrix:
-        python-version: [3.9, 3.10, 3.11]  # Versions de Python que tu veux tester
+        python-version: [3.9, 3.10, 3.11]  # Utilisation des versions supportées de Python
 
     steps:
     - name: Checkout repository
