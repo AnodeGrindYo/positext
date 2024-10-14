@@ -1,24 +1,21 @@
 # Cahier des charges - Extension Chrome "PosiText"
-
-
+<br>
+<br>
 
 
 ## 1. Contexte
 Les interactions sur les réseaux sociaux peuvent parfois être empreintes de négativité, ce qui nuit à la qualité des échanges en ligne. Face à ce constat, l'objectif est de développer une extension Chrome interagissant avec une API d'analyse de sentiment. Cette API analysera en temps réel le contenu textuel saisi par les utilisateurs, détectant les propos négatifs et encourageant leur reformulation. Cette solution vise à promouvoir des interactions plus positives et constructives sur les réseaux sociaux tels que Facebook, Twitter, et autres.
-
-
+<br>
 
 
 ## 2. Problématique
 Les utilisateurs des réseaux sociaux peuvent, parfois inconsciemment, publier des messages négatifs, contribuant à un climat toxique en ligne. Une solution est nécessaire pour offrir un retour instantané sur la tonalité des messages sans perturber l'expérience utilisateur ni compromettre la confidentialité des données. Le défi réside dans la création d'une solution rapide, efficace et confidentielle, tout en étant légère et réactive.
-
-
+<br>
 
 
 ## 3. Solution
 L'extension "PosiText" fonctionnera en lien avec une API déployée sur un serveur AWS EC2. Cette extension capturera le texte saisi par l'utilisateur dans les champs de texte des réseaux sociaux, l'enverra à l'API pour analyse, et renverra une notification lorsque des propos négatifs seront détectés. L'API d'analyse utilisera la bibliothèque **VADER** pour analyser la polarité du texte et fournir un score de sentiment, garantissant ainsi une analyse rapide et efficace.
-
-
+<br>
 
 
 ## 4. Choix technique
@@ -27,8 +24,7 @@ L'extension "PosiText" fonctionnera en lien avec une API déployée sur un serve
 - **Chrome extensions API** : Interface permettant d'intégrer l'extension dans le navigateur, d'interagir avec les pages web et de capturer les données des champs de texte.
 - **FastAPI** et **VADER** : FastAPI sera utilisé pour créer l'API d'analyse de sentiment. VADER, un modèle NLP léger, sera utilisé pour effectuer l'analyse de sentiment sur les textes envoyés par l'extension.
 - **AWS EC2** : Serveur Ubuntu hébergeant l'API, garantissant une disponibilité et des performances optimales.
-
-
+<br>
 
 
 ## 5. Fonctionnalités (sous forme de tableau)
@@ -44,8 +40,7 @@ L'extension "PosiText" fonctionnera en lien avec une API déployée sur un serve
 Le diagramme illustre l’interaction entre l’utilisateur, l’extension, et l’API d’analyse de sentiment. Il décrit le flux de données, depuis la saisie du texte jusqu'à la notification de reformulation.
 
 ![use_case_diagram](img/use_case_diagram.png)
-  
-  
+<br>
 
 ## 6. Documentation technique
 ### a) Capture du texte
@@ -69,8 +64,7 @@ Un bouton d'extension situé dans la barre d'outils Chrome permet d'ouvrir un po
 
 ### f) Respect de la vie privée
 Aucune donnée personnelle n'est stockée ou transmise à des serveurs tiers. L'API ne traite que le texte brut envoyé par l'extension et ne garde aucune trace de ces données une fois l'analyse effectuée.
-
-  
+<br>
 
 ## 7. À savoir
 L'extension "Filtre Anti-négativité" améliore les interactions sociales en ligne en fournissant une analyse en temps réel des propos négatifs, tout en garantissant une confidentialité maximale des données. Ce projet, qui doit être réalisé en 3 jours, proposera une extension légère et réactive, soutenue par une API d'analyse de sentiment robuste et rapide, hébergée sur un serveur AWS EC2.
