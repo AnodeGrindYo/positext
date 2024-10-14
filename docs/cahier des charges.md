@@ -43,12 +43,9 @@ L'extension "PosiText" fonctionnera en lien avec une API déployée sur un serve
 ### Diagramme de cas d'utilisation :
 Le diagramme illustre l’interaction entre l’utilisateur, l’extension, et l’API d’analyse de sentiment. Il décrit le flux de données, depuis la saisie du texte jusqu'à la notification de reformulation.
 
-![use_case_diagram](docs/img/use_case_diagram.png)
-
-
-
-
-
+![use_case_diagram](img/use_case_diagram.png)
+  
+  
 
 ## 6. Documentation technique
 ### a) Capture du texte
@@ -73,8 +70,7 @@ Un bouton d'extension situé dans la barre d'outils Chrome permet d'ouvrir un po
 ### f) Respect de la vie privée
 Aucune donnée personnelle n'est stockée ou transmise à des serveurs tiers. L'API ne traite que le texte brut envoyé par l'extension et ne garde aucune trace de ces données une fois l'analyse effectuée.
 
-
-
+  
 
 ## 7. À savoir
 L'extension "Filtre Anti-négativité" améliore les interactions sociales en ligne en fournissant une analyse en temps réel des propos négatifs, tout en garantissant une confidentialité maximale des données. Ce projet, qui doit être réalisé en 3 jours, proposera une extension légère et réactive, soutenue par une API d'analyse de sentiment robuste et rapide, hébergée sur un serveur AWS EC2.
