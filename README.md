@@ -1,7 +1,7 @@
 
-# 🚀 Extension Chrome "Filtre Anti-négativité" 🛡️
+# 🚀 Extension Chrome "PosiText" 🛡️
 
-Bienvenue dans **Filtre Anti-négativité** ! Cette extension Chrome analyse en temps réel les messages que vous tapez sur les réseaux sociaux et vous aide à reformuler les propos négatifs pour encourager des interactions plus positives et bienveillantes en ligne. 🌟
+Bienvenue dans **PosiText** ! Cette extension Chrome analyse en temps réel les messages que vous tapez sur les réseaux sociaux et vous aide à reformuler les propos négatifs pour encourager des interactions plus positives et bienveillantes en ligne. 🌟
 
 ## 🎯 Objectif du projet
 L'objectif est simple : améliorer la qualité des échanges en ligne en alertant les utilisateurs lorsqu'un message contient des éléments négatifs. En utilisant un modèle d'analyse de sentiment hébergé sur une API, l'extension vous propose de reformuler vos messages pour éviter les malentendus ou les échanges toxiques. 💬❤️
@@ -24,12 +24,12 @@ Avant d'installer cette extension, assurez-vous d’avoir :
 
 1. Clonez ce repository :
    ```bash
-   git clone https://github.com/username/filtre-anti-negativite.git
+   git clone https://github.com/AnodeGrindYo/positext
    ```
 
 2. Accédez au dossier du projet :
    ```bash
-   cd filtre-anti-negativite
+   cd positext
    ```
 
 3. Ouvrez Google Chrome et allez dans `chrome://extensions/` 🔗.
@@ -67,4 +67,4 @@ Les contributions sont les bienvenues ! 🎉 Si vous avez des idées pour améli
 
 ---
 
-Merci d'avoir choisi **Filtre Anti-négativité** ! Ensemble, rendons Internet plus positif et bienveillant ❤️🌍.
+Merci d'avoir choisi **PosiText** ! Ensemble, rendons Internet plus positif et bienveillant ❤️🌍.
