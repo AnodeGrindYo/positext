@@ -1,0 +1,58 @@
+# --- Section Python ---
+
+# Ignorer les environnements virtuels
+env/
+venv/
+.venv/
+
+# Ignorer les fichiers de cache Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Ignorer les logs
+*.log
+
+# Ignorer les fichiers de test coverage
+htmlcov/
+.tox/
+.nox/
+.coverage
+*.cover
+coverage.*
+
+# Ignorer les fichiers de test distutils
+build/
+dist/
+*.egg-info/
+
+# Ignorer les fichiers générés par pytest
+.pytest_cache/
+
+# --- Section Extension Chrome ---
+
+# Ignorer les fichiers de configuration de l'IDE pour l'extension Chrome
+.vscode/
+.idea/
+
+# Ignorer les fichiers temporaires du système d'exploitation
+.DS_Store
+Thumbs.db
+
+# Ignorer les builds et artefacts d'extensions Chrome (si nécessaire)
+*.zip
+*.crx
+
+# --- Section Générale ---
+
+# Ignorer les fichiers spécifiques à l'OS
+.DS_Store
+Thumbs.db
+
+# Ignorer les fichiers spécifiques à Git
+.git/
+
+# Ignorer les fichiers de configuration de scripts
+*.ps1
+*.sh
