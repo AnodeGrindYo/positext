@@ -36,6 +36,13 @@ L'extension "PosiText" fonctionnera en lien avec une API déployée sur un serve
 | Notification d'alerte         | Alerter l'utilisateur en cas de texte jugé négatif et proposer une reformulation                 | **JavaScript notification API**    |
 | Interface utilisateur minimaliste | Icône dans la barre d'outils ouvrant un pop-up pour gérer l'état de l'extension (ON/OFF)         | **HTML/CSS/JavaScript**            |
 
+<br>
+
+### Langue supportée :
+- L'extension ne supporte que l'analyse des textes en anglais. Tout texte saisi dans une autre langue ne sera pas analysé correctement.
+
+<br>
+
 ### Diagramme de cas d'utilisation :
 Le diagramme illustre l’interaction entre l’utilisateur, l’extension, et l’API d’analyse de sentiment. Il décrit le flux de données, depuis la saisie du texte jusqu'à la notification de reformulation.
 
