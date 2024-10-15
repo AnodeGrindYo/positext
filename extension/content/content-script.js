@@ -1,7 +1,7 @@
-// content.js
+// content-script.js
 
-// URL de l'API d'analyse de sentiment hébergée sur AWS EC2
-const API_URL = 'https://votre-api-sentiment-analysis.com/analyze';
+// URL de l'API d'analyse de sentiment hébergée sur AWS EC2 (temporairement sur localhost)
+const API_URL = 'https://localhost:8000/analyze';  // Remplacer par l'URL EC2 lors du déploiement
 
 // Fonction pour envoyer le texte à l'API et obtenir le score de sentiment
 async function analyzeSentiment(text) {
@@ -14,22 +14,26 @@ async function analyzeSentiment(text) {
             body: JSON.stringify({ text: text })
         });
 
+        if (!response.ok) {
+            throw new Error('Erreur du serveur');
+        }
+
         const result = await response.json();
         return result;
     } catch (error) {
         console.error('Erreur lors de la communication avec l\'API d\'analyse de sentiment :', error);
+        alert('Impossible d\'analyser le sentiment en raison d\'une erreur serveur.');
     }
 }
 
-// Fonction pour traiter le texte saisi dans les champs de saisie
+// Fonction pour gérer l'entrée de texte dans les divs role="textbox"
 function handleInput(event) {
-    const text = event.target.value;
+    const text = event.target.innerText;
+    console.log("Texte saisi:", text);
 
-    // Envoyer une requête à l'API uniquement si du texte est saisi
     if (text && text.length > 0) {
         analyzeSentiment(text).then((result) => {
-            if (result && result.sentiment_score < -0.3) {
-                // Si le score de sentiment est négatif, informer le background.js
+            if (result && result.compound < -0.3) {
                 chrome.runtime.sendMessage({
                     type: 'negativeSentimentDetected',
                     text: text
@@ -39,16 +43,23 @@ function handleInput(event) {
     }
 }
 
-// Injecter un listener pour capturer les saisies dans les champs de texte
+// Fonction pour ajouter des listeners sur les champs de texte
 function addInputListeners() {
-    // Sélectionner tous les champs de texte des pages Facebook et Twitter
-    const textFields = document.querySelectorAll('textarea, input[type="text"]');
+    const textFields = document.querySelectorAll('div[role="textbox"]');
 
-    // Ajouter un event listener à chaque champ de texte pour capturer la saisie
-    textFields.forEach((field) => {
-        field.addEventListener('input', handleInput);
+    if (textFields.length === 0) {
+        console.log("Aucun champ de texte trouvé");
+    }
+
+    textFields.forEach((textField) => {
+        textField.addEventListener('input', handleInput);
     });
 }
+
+// Réexécuter la fonction de vérification de champs toutes les 2 secondes pour détecter les nouveaux éléments
+setInterval(() => {
+    addInputListeners();
+}, 2000);
 
 // Vérifier l'état de l'extension avant d'ajouter les listeners
 chrome.runtime.sendMessage({ type: 'checkExtensionStatus' }, (response) => {

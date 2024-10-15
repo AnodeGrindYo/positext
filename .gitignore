@@ -56,3 +56,9 @@ Thumbs.db
 # Ignorer les fichiers de configuration de scripts
 *.ps1
 *.sh
+
+# Ignorer le dossier output
+output/
+
+# Ignorer les certificats ssl
+*.pem

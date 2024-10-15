@@ -4,9 +4,19 @@
 from fastapi import FastAPI, HTTPException
 from pydantic import BaseModel
 from vaderSentiment.vaderSentiment import SentimentIntensityAnalyzer
+from fastapi.middleware.cors import CORSMiddleware
 
 # Initialiser l'application FastAPI
 app = FastAPI()
+
+# Ajout du middleware CORS pour autoriser les requêtes cross-origin
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=["*"],  # Autoriser toutes les origines (temporaire parce que ça casse les...)
+    allow_credentials=True,
+    allow_methods=["*"],  # Permettre toutes les méthodes HTTP (GET, POST, etc.)
+    allow_headers=["*"],  # Permettre tous les en-têtes
+)
 
 # Initialiser l'analyseur VADER
 analyzer = SentimentIntensityAnalyzer()
