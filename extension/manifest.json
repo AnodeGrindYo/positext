@@ -38,10 +38,9 @@
         }
     ],
     "host_permissions": [
-        "http://localhost/*", 
         "https://localhost/*",
-        "https://*.facebook.com/*", 
-        "https://*.x.com/*"
+        "https://*.ngrok-free.app/*",
+        "https://e171-2a04-cec0-1207-dbd9-c84e-d144-f3a7-e20.ngrok-free.app/*"
     ],
     "options_page": "options/options.html"
 }
