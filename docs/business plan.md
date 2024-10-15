@@ -24,7 +24,7 @@ Faciliter l'analyse des sentiments dans les textes en ligne pour des utilisateur
 </br>
 
 ### Public cible
-L'application s'adresse à différents segments d'utilisateurs :
+L'application s'adresse à différents type d'utilisateurs :
 - **Professionnels du marketing digital** : qui souhaitent comprendre les opinions sur leurs produits ou services sur les réseaux sociaux et d'autres plateformes.
 - **Rédacteurs de contenu** : pour ajuster la tonalité de leurs textes et évaluer l'impact émotionnel de leurs écrits.
 - **Community managers** : pour surveiller et réagir aux émotions dans les commentaires sur les réseaux sociaux.
@@ -185,10 +185,16 @@ Pour développer et maintenir l'application, une équipe dédiée est nécessair
 5. **Responsable marketing** : En charge de la stratégie marketing globale, y compris les campagnes de publicité, le contenu éducatif, et les collaborations avec des influenceurs.
 6. **Service client et support technique** : Une petite équipe pour répondre aux questions des utilisateurs, résoudre les bugs, et recueillir des retours.
 
+<br>
+
 ---
 
+<br>
+
 ## 7. Plan financier
-</br>
+
+<br>
+
 ### Coûts initiaux
 1. **Développement** :
    - Salaires des développeurs backend et frontend, environ 50 000€ par an chacun.
