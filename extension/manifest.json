@@ -1,6 +1,6 @@
 {
     "manifest_version": 3,
-    "name": "Filtre Anti-négativité",
+    "name": "PosiText",
     "version": "1.0",
     "description": "Une extension pour détecter et notifier l'utilisateur des messages à connotation négative sur les réseaux sociaux.",
     "permissions": [

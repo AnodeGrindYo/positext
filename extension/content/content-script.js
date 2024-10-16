@@ -18,8 +18,9 @@
  */
 
 
-// const API_URL = 'https://e171-2a04-cec0-1207-dbd9-c84e-d144-f3a7-e20.ngrok-free.app/analyze'; # pour le dev en local
-const API_URL = "https://13.51.162.90/analyze"
+// const API_URL = 'https://e171-2a04-cec0-1207-dbd9-c84e-d144-f3a7-e20.ngrok-free.app/analyze' // pour le dev en local avec ngrok, modèle VADER d'analyse de sentiment
+// const API_URL = 'https://fb1a-2a04-cec0-1224-b6e2-882d-bea-e709-3c06.ngrok-free.app/toxicity' // pour le dev en local avec ngrok, model BERT-TOXIC (trop lent, d'après les tests)
+const API_URL = "https://13.51.162.90/analyze" // pour la version déployée sur AWS EC2, modèle VADER d'analyse de sentiment
 
 async function analyzeSentiment(text) {
     try {
