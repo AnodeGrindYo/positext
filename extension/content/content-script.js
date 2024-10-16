@@ -1,3 +1,23 @@
+/*
+ * content-script.js
+ * 
+ * Ce fichier agit comme un script d'interaction entre l'extension et les pages web que l'utilisateur visite.
+ * Il capture le texte saisi par l'utilisateur dans les zones de texte (comme les commentaires ou messages sur des réseaux sociaux),
+ * envoie ce texte à une API pour analyse de sentiment, et affiche des notifications si le texte est jugé négatif.
+ * 
+ * Les fonctionnalités principales incluent :
+ * - Surveillance des champs texte sur les pages web.
+ * - Envoi du texte à une API d'analyse de sentiment hébergée sur AWS EC2.
+ * - Désactivation du bouton d'envoi (par exemple "Envoyer" ou "Publier") si le sentiment du texte est négatif.
+ * - Affichage d'une notification visuelle pour suggérer à l'utilisateur de reformuler un texte jugé toxique.
+ * - Communication avec le script d'arrière-plan (background.js) pour la gestion des notifications et de l'état actif de l'extension.
+ * 
+ * Ce script est injecté dans chaque page visitée par l'utilisateur où l'extension est active.
+ * 
+ * C'est ici que l'on peut modifier l'URL de l'API
+ */
+
+
 // const API_URL = 'https://e171-2a04-cec0-1207-dbd9-c84e-d144-f3a7-e20.ngrok-free.app/analyze'; # pour le dev en local
 const API_URL = "https://13.51.162.90/analyze"
 
