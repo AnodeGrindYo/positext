@@ -176,13 +176,10 @@ Le projet consiste à développer une extension Chrome permettant de détecter e
 
 ## 5. Contraintes techniques
 
-### 5.1 Performances
-- Le temps de réponse de l'API doit être inférieur à 1 seconde pour ne pas nuire à l'expérience utilisateur.
-
-### 5.2 Sécurité et confidentialité
+### 5.1 Sécurité et confidentialité
 - Aucune donnée personnelle ne doit être stockée par l'API ou l'extension.
 
-### 5.3 Compatibilité
+### 5.2 Compatibilité
 - **Navigateurs supportés** : Chrome version 90+.
 - **Systèmes d'exploitation** : Windows, macOS, Linux.
 
