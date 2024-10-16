@@ -1,4 +1,5 @@
-const API_URL = 'https://e171-2a04-cec0-1207-dbd9-c84e-d144-f3a7-e20.ngrok-free.app/analyze';
+// const API_URL = 'https://e171-2a04-cec0-1207-dbd9-c84e-d144-f3a7-e20.ngrok-free.app/analyze'; # pour le dev en local
+const API_URL = "https://13.51.162.90/analyze"
 
 async function analyzeSentiment(text) {
     try {
