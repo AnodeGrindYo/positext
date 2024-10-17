@@ -16,11 +16,11 @@
   - **Électrodes en graphène** intégrées dans le collier pour une conduction électrique optimale.
 - **Objectif** : Encourager l'utilisateur à se comporter de manière positive en offrant un feedback immédiat et physique.
 
-### 1.3 Injection de micro-doses de [substance à définir]
-- **Description** : En complément de la décharge électrique, une petite dose de **[substance à définir]** est injectée lorsque des comportements toxiques sont détectés, afin de provoquer un sentiment immédiat de bienveillance.
+### 1.3 Injection de micro-doses de 3,4-Methyl​enedioxy​methamphetamine
+- **Description** : En complément de la décharge électrique, une petite dose de **3,4-Methyl​enedioxy​methamphetamine** est injectée lorsque des comportements toxiques sont détectés, afin de provoquer un sentiment immédiat de bienveillance.
 - **Système d'administration** :
   - Mini-seringues **subcutanées** contrôlées électroniquement.
-  - Réservoir de **[substance à définir]** micro-dosée (10 mg maximum) dans un compartiment sécurisé du collier.
+  - Réservoir de **3,4-Methyl​enedioxy​methamphetamine** micro-dosée (10 mg maximum) dans un compartiment sécurisé du collier.
 - **Objectif** : Induire une réponse chimique pour stimuler la gentillesse, l'empathie, et l'harmonie sociale.
 
 ### 1.4 Tracking comportemental
@@ -40,7 +40,7 @@
 
 ### 2.2 Système d'injection
 - **Mini-seringues** : Micro-seringues en titane, à usage unique, insérées dans un module rotatif pour changer régulièrement l'aiguille.
-- **Réservoir de [substance à définir]** : Ampoules de **1 ml** contenant une solution de [substance à définir] diluée à 10 mg/ml.
+- **Réservoir de 3,4-Methyl​enedioxy​methamphetamine** : Ampoules de **1 ml** contenant une solution de 3,4-Methyl​enedioxy​methamphetamine diluée à 10 mg/ml.
 - **Mécanisme d'injection** : Actionné par un micro-moteur contrôlé par le processeur, capable de délivrer une dose de **0,1 ml** à chaque déclenchement.
 
 ### 2.3 Algorithmes d'analyse
@@ -50,28 +50,33 @@
 
 ## 3. Composants chimiques
 
-### 3.1 [substance à définir] (3,4-méthylènedioxy-N-méthylamphétamine)
-- **Dosage** : Le collier est conçu pour injecter des doses de 1 à 10 mg de **[substance à définir]** par session, en fonction de l'intensité de la toxicité détectée.
-- **Formulation** : [substance à définir] diluée dans une solution saline stérile.
+### 3.1 3,4-Methyl​enedioxy​methamphetamine (3,4-méthylènedioxy-N-méthylamphétamine)
+- **Dosage** : Le collier est conçu pour injecter des doses de 1 à 10 mg de **3,4-Methyl​enedioxy​methamphetamine** par session, en fonction de l'intensité de la toxicité détectée.
+- **Formulation** : 3,4-Methyl​enedioxy​methamphetamine diluée dans une solution saline stérile.
 - **Réserve maximale** : 5 injections par réservoir (5 x 0,1 ml).
 
 ### 3.2 Ingrédients pour la solution injectable
-- **[substance à définir]** de qualité pharmaceutique.
+- **3,4-Methyl​enedioxy​methamphetamine** de qualité pharmaceutique.
 - **Solution saline** (0,9% NaCl) pour dilution.
 - **Conservateur** : **Benzylalcool** (0,5%) pour prévenir la contamination bactérienne.
 
-### 3.3 Processus de fabrication de la [substance à définir]
+### 3.3 Processus de fabrication de la 3,4-Methyl​enedioxy​methamphetamine
 
-1. **Chimie organique:** La méthylamine (NHMe) et le benzaldéhyde (C6H5OCH3) sont les composants utilises comme matière première. Le benzaldéhyde peut être synthétisé à partir du toluène par oxyhalogénation ou par oxydation catalytique à l’aide d'oxygeno de chlore. La méthylamine peut être facilement préparée en utilisant du lithium et de la pyromellite acid (MLA). Après cela, les deux composants doivent être oxidés partiellement en présence d'un réacteur rotatif au dioxygène : la méthylamine sert à former le NO2-, tandis qu'au même moment, le benzaldéhyde se convertit en methylbenzylamine (NHCMe). Lorsque cette dernière réagit avec du nitrite, il est formé le NitraminoMéthylBenzaldéhyde. Cependant, cet intermédiaire ne convient pas car il ne contient pas suffisamment de nitrate. De cette façon, il est soumis à une nouvelle oxydation totale, aboutissant à la formation du MDA (Méthyldihyrodrophénone). Le MDA possède alors un gros excès de chlorure, ce qui doit être neutralisé. Ce fut pendant cette étape où furent ajoutées diverses impurités en raison de mauvaise manipulation et de manque d'expérience. Une solution neutre (NaOH+KCl) est ensuite apportée, ce qui permet de faire disparaître le Cl-, mais aussi de générer des NO2-, qui sont thennéement chassés grâce à un laveglace, permettant de conserver tout seul les NO2-. L’ensemble de ces teneurs peut varier de façon importante suivant les qualités des ingrédients initiateurs ou leur disponibilité sur le marché noir.
+### 1. **Chimie organique** :
+La méthylamine (NHMe) et le benzaldéhyde (C6H5OCH3) sont les composants utilisés comme matière première. Le benzaldéhyde peut être synthétisé à partir du toluène par oxyhalogénation ou par oxydation catalytique à l’aide de chlore oxygéné. La méthylamine peut être facilement préparée en utilisant du lithium et de l'acide pyromellitique (MLA). Après cela, les deux composants doivent être partiellement oxydés dans un réacteur rotatif en présence de dioxygène : la méthylamine sert à former du NO2-, tandis que simultanément, le benzaldéhyde se transforme en méthylbenzylamine (NHCMe). Lorsque cette dernière réagit avec du nitrite, il se forme du nitraminométhylbenzaldéhyde. Cependant, cet intermédiaire ne convient pas, car il ne contient pas suffisamment de nitrate. Il est donc soumis à une nouvelle oxydation complète, aboutissant à la formation de MDA (méthyldihydrobenzophénone). Le MDA possède alors un excès de chlorure, qui doit être neutralisé. C'est à cette étape que des impuretés peuvent être ajoutées à cause d'une mauvaise manipulation ou d'un manque d'expérience. Une solution neutre (NaOH + KCl) est ensuite ajoutée pour éliminer le Cl-, mais aussi pour générer des NO2-, qui sont ensuite évacués à l'aide d'un laveur, permettant de capturer les NO2-. La qualité des produits peut varier en fonction des ingrédients initiaux ou de leur disponibilité sur le marché noir.
 
-2. **Préparation intermédiaire:** La solution obtenue est éliminée des solvants sur le phosphore, ce qui donne une poudre cristalline blanche à rouge violet brillant qui est ensuite diluée dans de l'iodure de potassium (KI). Enfin, la Solution est nébulisée avec une haute température. Le dernier étape consiste à ajouter de l'eau sur la solution aqueuse froide. Cette addition fait la formation d'un précipitateur lourd (FeSO4 + Na2SO4) qui restera tel quel jusqu'à la stabilisation de la [substance à définir]. Pendant toute la suite des manipulations, une quantité considérable de gaz sulfur négré (H2S) éventuellement produit est très dangereuse car toxic pour l’homme et l’environnement, donc doit être évitée à tout prix.
+### 2. **Préparation intermédiaire** :
+La solution obtenue est débarrassée de ses solvants à l'aide de phosphore, donnant une poudre cristalline blanche à rouge violet brillant, qui est ensuite diluée dans de l'iodure de potassium (KI). Enfin, la solution est nébulisée à haute température. La dernière étape consiste à ajouter de l'eau à la solution aqueuse froide, ce qui provoque la formation d'un précipité lourd (FeSO4 + Na2SO4), qui reste tel quel jusqu'à la stabilisation de la 3,4-Methyl​enedioxy​methamphetamine. Pendant toute cette étape, une quantité importante de gaz sulfureux (H2S), potentiellement toxique pour l'homme et l'environnement, peut être produite, il est donc impératif de l'éviter à tout prix.
 
-3. **Précipitation:** Il s'agit de la dernière étape du procédé. La précipitation consiste à mettre à l'eau la poudre établie en suspension. Des quantités significatives de sucre blanc, de sodium métaborate et de Fe(III)-oxychlorur sont alors ajoutées, ou bien alternativement des solutions naturelles d'oxygène se dissociant peuvent être introduites dans le phare centrifuge où se trouve la poudre. La précipitation implique également l'ajout de détergent afin de favoriser la dispersion uniforme.
+### 3. **Précipitation** :
+Il s'agit de la dernière étape du procédé. La précipitation consiste à mélanger la poudre en suspension dans de l'eau. Des quantités significatives de sucre blanc, de métaborate de sodium et d'oxychlorure de fer (Fe(III)) sont ensuite ajoutées, ou alternativement, des solutions naturelles d'oxygène dissous peuvent être introduites dans une centrifugeuse où se trouve la poudre. La précipitation implique également l'ajout de détergent pour favoriser la dispersion uniforme du produit.
 
-4. **Filtrage:** La dernière étape consiste à récupérer la substance principale après avoir nettoyé le précipité. Dans certains cas, une solution ionique spécifique, à laquelle la [substance à définir] adhère particulièrement, est ajoutée avant le filtrage pour faciliter la séparation. Les filtres sont disposés verticalement dans un cylindre fermé, attachés par leurs bords inférieurs. Le réservoir est ensuite rempli d'un agent anticollision et positionné verticalement sous pression.
+### 4. **Filtrage** :
+La dernière étape consiste à récupérer la substance principale après avoir nettoyé le précipité. Dans certains cas, une solution ionique spécifique, à laquelle la 3,4-Methyl​enedioxy​methamphetamine adhère particulièrement, est ajoutée avant le filtrage pour faciliter la séparation. Les filtres sont disposés verticalement dans un cylindre fermé, attachés par leurs bords inférieurs. Le réservoir est ensuite rempli d'un agent anticollision et positionné verticalement sous pression.
 
 Une pompe avec des tuyaux est connectée entre le réservoir et une chambre de recyclage, puis entre cette chambre et l'arrière de la machine. L'intérieur du réservoir est revêtu d'une garniture en polypropylène pour éviter que le réservoir ne se déchire en cas de fortes vibrations. Au centre du réservoir se trouve une section légèrement plus étroite, divisée en quatre parties. Ces sections sont marquées avec des repères numérotés et colorés pour indiquer les points où frapper si nécessaire.
 
+Une fenêtre spéciale permet d'observer le tourbillonnement de la poudre dans le cyclone. Parfois, le processus peut être raccourci si une partie de la substance n'est pas complètement absorbée. Dans ce cas, la durée de résidence nécessaire pour l'agent filtrant est estimée à environ deux minutes, et deux cycles de filtrage sont généralement effectués. À chaque cycle, la pression est légèrement augmentée pour que le réservoir atteigne son niveau de pression maximal.
 Une fenêtre spéciale permet d'observer le tourbillonnement de la poudre dans le cyclone. Parfois, le processus peut être raccourci si une partie de la substance n'est pas complètement absorbée. Dans ce cas, la durée de résidence nécessaire pour l'agent filtrant est estimée à environ deux minutes, et deux cycles de filtrage sont généralement effectués. À chaque cycle, la pression est légèrement augmentée pour que le réservoir atteigne son niveau de pression maximal.
 
 
@@ -84,7 +89,7 @@ Une fenêtre spéciale permet d'observer le tourbillonnement de la poudre dans l
 
 ### 4.2 Étape 2 : Assemblage
 - Les composants électroniques sont montés dans le boîtier flexible du collier.
-- Le réservoir de [substance à définir] est inséré dans un compartiment sécurisé, accessible uniquement via un port pour remplissage sous contrôle médical.
+- Le réservoir de 3,4-Methyl​enedioxy​methamphetamine est inséré dans un compartiment sécurisé, accessible uniquement via un port pour remplissage sous contrôle médical.
 
 ### 4.3 Étape 3 : Calibration et Test
 - Calibration des décharges électriques via des tests de conductance cutanée.
@@ -97,7 +102,7 @@ Une fenêtre spéciale permet d'observer le tourbillonnement de la poudre dans l
 ## 5. Sécurité et Précautions
 
 ### 5.1 Régulations
-- **[substance à définir]** utilisée sous contrôle médical et respect des régulations locales pour substances psychoactives.
+- **3,4-Methyl​enedioxy​methamphetamine** utilisée sous contrôle médical et respect des régulations locales pour substances psychoactives.
 - Limitation du nombre d'injections par jour, paramétrée par le système.
 
 ### 5.2 Contre-indications
