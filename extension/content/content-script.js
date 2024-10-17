@@ -79,7 +79,7 @@ function handleInput(event) {
 function showCustomNotification(text) {
     // Créer un conteneur pour la notification
     const notification = document.createElement('div');
-    notification.textContent = `Attention, ne soyez pas si négatif ! Le texte suivant semble négatif : "${text}". Veuillez reformuler.`;
+    notification.textContent = `Warning, don't be so negative! The following text appears to be negative: "${text}". Please rephrase.`;
     
     // Appliquer des styles pour la notification
     notification.style.position = 'fixed';
