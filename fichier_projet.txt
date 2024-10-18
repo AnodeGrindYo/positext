@@ -1,0 +1,44 @@
+./.github/workflows/python-app.yml
+./.gitignore
+./api/fastapi_app.py
+./api/requirements.txt
+./api/test/test_fastapi_app.py
+./api/__init__.py
+./cert.pem
+./code_to_md.ps1
+./dl_install_launch.sh
+./docs/business plan.md
+./docs/business plan.pdf
+./docs/cahier des charges.md
+./docs/cahier des charges.pdf
+./docs/evolution_ideas/EMO-WAVE spécifications fonctionnelles et techniques.md
+./docs/evolution_ideas/EMO-WAVE spécifications fonctionnelles et techniques.pdf
+./docs/evolution_ideas/Keynote_evolutions_envisagees.md
+./docs/evolution_ideas/Keynote_evolutions_envisagees.pdf
+./docs/img/positext.png
+./docs/img/use_case_diagram.png
+./docs/plan de lancement.md
+./docs/plan de lancement.pdf
+./docs/specifications fonctionnelles et techniques.md
+./docs/specifications fonctionnelles et techniques.pdf
+./extension/background/background.js
+./extension/content/content-script.js
+./extension/icons/icon128.png
+./extension/icons/icon16.png
+./extension/icons/icon48.png
+./extension/manifest.json
+./extension/options/options.css
+./extension/options/options.html
+./extension/options/options.js
+./extension/popup/popup.css
+./extension/popup/popup.html
+./extension/popup/popup.js
+./fichier_projet.txt
+./generate-project-structure.ps1
+./get_project_architecture.sh
+./key.pem
+./output/project_files.md
+./output/project_files_part1.md
+./prepackage_extension.ps1
+./README.md
+./start_api.ps1
